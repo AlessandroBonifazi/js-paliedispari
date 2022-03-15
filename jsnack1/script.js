@@ -6,6 +6,10 @@ console.log('JS OK!');
 
 const word = prompt('input a word');
 
+while (!word || word.length === 0) {
+    word = prompt('input a word');
+}
+
 function checkPalindrome(string) {
     const len = word.length;
 
