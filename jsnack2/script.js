@@ -9,8 +9,7 @@ console.log('JS OK!');
 
 
 
-const choice = prompt('even or odd?');
-const userChoice = choice.toLocaleLowerCase();
+const userChoice = prompt('even or odd?').toLocaleLowerCase();
 console.log('your choice: ' + userChoice);
 const userNumber = parseInt(prompt('input a number between 1 and 5'))
 
